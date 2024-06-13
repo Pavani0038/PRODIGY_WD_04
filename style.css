@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*header*/
+.header{
+    width: 100%;
+    background-color: lightblue;
+    height: 70px;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.logo{
+    width: 10%;
+    height: 70px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    /*background-color: yellow;*/
+
+}
+.navi{
+    width: 30%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   /* background-color: red;*/
+}
+.navlink{
+    width: 100%;
+   /* background-color: palevioletred;*/
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+
+}
+/*banner*/
+.banner{
+    width: 100%;
+  
+    background-color: lightblue;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    
+
+}
+.details{
+    width: 60%;
+    padding: 20px;
+    /*background-color: white;*/
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 5px;
+    box-sizing: border-box;
+}
+.t1{
+    font-size: 45px;
+    
+}
+.t2{
+    font-size: 70px;
+    font-weight: 400px;
+    color: palevioletred;
+    
+
+}
+.t3{
+    font-size: 40px;
+}
+.c1{
+    margin-top: 15px;
+    padding: 20px 40px;
+    font-size: 15px;
+    background-color: palevioletred;
+    color:  white;
+    font-weight: 30px;
+    background-color: palevioletred;
+    border: 2px solid ;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+.c1:hover{
+    background-color: transparent;
+    color: palevioletred;
+}
+.services{
+    width: 100%;
+    padding: 30px 10%;
+   /* background-color: lightcoral;*/
+    box-sizing: border-box;
+    
+}
+.sectitle{
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    display: flex;
+
+}
+.sechild{
+    width: 100%;
+    padding: 30px 0px;
+    /*background-color: white;*/
+    margin-top: 30px;
+    column-gap: 2%;
+    box-sizing: border-box;
+    display: flex;
+}
+.secone{
+    width: 21%;
+    /*background-color: yellow;*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    row-gap: 5px;
+    box-shadow: 0 0 2px gray;
+    border-radius: 5px;
+}
+.icon{
+    padding: 50px;
+    font-size: 30px;
+    align-self: center;
+    color: gray;
+}
+.serbut{
+    padding: 12px 25px;
+    background-color: palevioletred;
+    color:  white;
+    font-weight: 15px;
+    border: 1px solid ;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s;
+}
+.serbut:hover{
+    background-color: transparent;
+    color: palevioletred;
+}
+.achi{
+    padding: 30px 10%;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+}
+.acchild{
+    width: 100%;
+    padding: 30px 0px;
+   /*background-color: white;*/
+    margin-top: 30px;
+    column-gap: 2.5%;
+    box-sizing: border-box;
+    display: flex;
+}
+.achone{
+    width: 12%;
+    /*background-color: lightgray;*/
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    font-family: "Montserrat", sans-serif;
+    justify-content: space-between;
+    row-gap: 5%;
+}
+.number{
+    font-size: 35px;
+    font-weight: bold;
+}
+.tag{
+    font-size: 15px;
+
+
+}
+.quote{
+    width: 100%;
+    height: 400px;
+    background-color: beige;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url('https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    padding: 30px 10%;
+    background-color: rgba(0, 0, 0,0.7);
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.area{
+    width: 100%;
+    padding: 30px 0px;
+    /*background-color: white;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email{
+    width: 70%;
+    height: 60px;
+    border: 2px solid white;
+    font-size: 18px;
+    text-indent: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    outline: null;
+}
+::placeholder{
+    color: white;
+}
+.Clients{
+    width: 100%;
+    padding:  30px 5%;
+    /*background-color: lightblue;*/
+    box-sizing: border-box;
+}
+.cli-img{
+    width: 15%;
+    filter: grayscale(100%);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.cli-img:hover{
+    filter: grayscale(0);
+    transform: scale(1.2);
+}
+.cli-child{
+    /*background-color: white;*/
+    column-gap: 0px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    width: 100%;
+    padding: 30px 10%;
+    background-color: lightblue;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+.sechild{
+    /*background-color: white;*/
+
+}
+.foot{
+    width: 22%;
+    padding: 20px 50px;
+    /*background-color: grey;*/
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.foot-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
